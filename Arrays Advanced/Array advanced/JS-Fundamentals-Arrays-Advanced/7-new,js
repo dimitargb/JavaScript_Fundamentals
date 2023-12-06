@@ -1,0 +1,10 @@
+function arrayManipulations(arr) {
+   
+        let arrayToManipulate = arr.shift().split(" ").map(Number);
+        console.log(arrayToManipulate);
+} 
+    arrayManipulations(["4 19 2 53 6 43",
+    "Add 3",
+    "Remove 2",
+    "RemoveAt 1",
+    "Insert 8 3",])
