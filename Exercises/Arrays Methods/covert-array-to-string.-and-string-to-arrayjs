@@ -1,0 +1,8 @@
+const string = 'hi there'
+// converts with split method !!!
+const hi = string.split(''); // convert form string to array !!!
+
+
+console.log(hi);
+// converts with join method !!!
+console.log(hi.join(''));// convert form array to string !!!
