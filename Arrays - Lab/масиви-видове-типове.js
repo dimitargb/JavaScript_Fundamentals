@@ -20,7 +20,7 @@ function solve(angel) {
     // select element on invalis position!
     console.log(students[100]);
 
-    // set element on none exsiting position!
+    // set element on none exsiting position.
     students[10] = 'Mitko'
 
     //methods : includes() - дали в масива има този елемент.
