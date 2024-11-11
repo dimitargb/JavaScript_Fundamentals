@@ -1,0 +1,13 @@
+This Conditional Operator is called the Ternary Operator because it has 3 Parts -> The Condition age >= 18 ?;
+than the if Part ? console.log('I like to drink wine 🍷') and the else Part console.log('I like to drink wine 🚰');
+The Operator always produces a value.
+In other words an operator is an expresion. This means that if we have a value we can than assign this value to a veriable.
+In this way we can make a Ternary Operator very usefull in conditionally declaring variables.
+
+const age = 23;
+age >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink wine 🚰');
+
+So this Expression produces a value and we cvan store that value into a variable.
+
+const drink = age >= 18 ?'wine 🍷' : 'water 🚰';
+console.log(drink);
