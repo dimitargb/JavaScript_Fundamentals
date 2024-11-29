@@ -1,0 +1,38 @@
+The Operator allows us to transform values or combine multiple values.
+
+1. Mathematical Opertaors: We can use - or +, mulitplication or devision.
+    const ageJoanas = 2021 - 1973;
+    const ageFranky = 2021 - 1985;
+
+    console.log(ageJoanas, ageFranky);
+
+
+console.log(ageJoanas, ageFranky);
+console.log(ageJoanas * 2, ageJoanas / 2, 2 ** 3);
+
+// 2 ** 3 means two to the power of 3 = 2 * 2 * ;
+
+const firstName = "Dimitar";
+const lastName = "Damianov";
+console.log(firstName + " " + lastName); -> this is called concatenation.
+
+Assignment Opertator is the equal sign:
+
+let x = 10 + 5; Here the = is an Operator as wel as +;
+In this case x will be asigned 15, because the + Operator is executed befoiore the = Operator;
+
+x += 10;
+Here to x will be added 10, x was 15 + 10 = 25;
+console.log(x) // will be 25
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 25 * 4 = 100
+
+x++; This is x = x + 1;
+x--; This is x = x - 1;
+
+Comparison Operators
+
+We use Comparison Operators to produce a boolean values.
+console.log(ageJoanas > ageFranky); -> Tis means is the age of Jonas grater than the age of Frankey and the Operator replys with true or false
+
+console.log(ageFranky >= 18); -> true;
