@@ -1,0 +1,41 @@
+In JS every value is either an Object: let me : {
+    name: 'Dimitar'
+};
+
+Or Primitive value : let firstName: 'Dimitar';
+                     let age: 50;
+
+Value is only Primitive, when is not an Object.
+
+There are 7 Primitive Data types: Number, String, Boolean, undifined, null, symbol and BigInt.
+
+1. Number is useed for decimials and integers -> let number = 25;
+2. Strings is used for text -> let firstName = 'Dimitar';
+3. Boolean is a logical type when one of the logical valuee is true or false, used for taking decisions-> let fullAge = true;
+4. Undifined is the value taken by a variable that is not yet defined. This is a variable that we declare, but wihtout asigning.
+   This means empty value -> let children; 
+5. Null means empty value too.
+6. Symbol was introduced with ES 2015(ETMASCRIPT 2015), it defines a unique value that can not be changed.
+7.BigInt starting form (ES2020), this is for large integers, another type for numbers.
+
+Dynamyc typing means that we do not have to manually define the data type of the value stored in the variable.
+Insted the data types are detrmined automatically. We can easaly change the value that is hold by a varibale.
+
+In Dynamyc typing if we want to reasing a value, which is alreday assigned we just scip the let or const:
+
+let javaScriptIsFun = true;
+    javaScriptIsFun = 'Dimitar';
+
+In JS the value has the type, not the varable. the varable simply store value that has a type !!!
+Another specification of the dynamyc typing is that we can assign a new value with a diffrent data type to the same variable.
+
+We can use a special Operator called typeof to show a type of a vlue!!!
+
+Important !!!
+If we want to comment something out -> Ctrl + / and backwords to uncoment!!!
+
+Multiline comment - /* what we comment inside */
+
+
+
+
