@@ -1,0 +1,21 @@
+The Boolean Logic usese several Logical Operators to combine true and false values.
+Those are the End, Or and Not Operators.
+
+1. The End Operator &&, only if all conditions are true the result of the operstion will be true as well.
+
+Is enought for one Operator to be false to make all Operators false;
+
+The End Operator &&, returns true only if A and B Operations are true, if either A or B are false then all are false.
+
+It will be true if all A, and B are ture, if one of them is false the result is false.
+
+2. The Or Operator ||, will be true if just one of the variables A or B is true!!!
+
+ Even if one Operator is false the other one is true, the result will be ture, bec use we have one 
+ which is true.
+
+3. The Not Operator !, this Operator inverts the Boolean value form true to false and ftom false to true.
+
+  The Not Operator !, has a precedence over the other 2 Operators. This means the value are conveted to Not Operator first
+  and afetr we use the End or Or Operators.
+
